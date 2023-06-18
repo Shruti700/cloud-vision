@@ -57,7 +57,7 @@ See the [label detection](https://cloud.google.com/vision/docs/label-tutorial) t
 *Awwvision* is a [Kubernetes](https://github.com/kubernetes/kubernetes/) and
 [Cloud Vision API](https://cloud.google.com/vision/) sample that uses the
 Vision API to classify (label) images from Reddit's
-[/r/aww](https://reddit.com/r/aww) subreddit, and display the labelled results
+[/r/aww](https://reddit.com/r/aww) subreddit and display the labelled results
 in a web application.
 
 - [Documentation and Python Code](https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/python/awwvision)
@@ -67,7 +67,7 @@ in a web application.
 This sample uses `TEXT_DETECTION` Vision API requests to build an inverted
 index from the stemmed words found in the images, and stores that index in a
 [Redis](redis.io) database. The resulting index can be queried to find
-images that match a given set of words, and to list text that was found in each
+images that match a given set of words and to list text that was found in each
 matching image.
 
 For finding stopwords and doing stemming, the Python example uses the
@@ -81,7 +81,7 @@ The Java example uses the [OpenNLP](https://opennlp.apache.org/) library.
 
 ### Image Detection Using Android Device Photos
 
-This simple single-activity sample that shows you how to make a call to the
+This simple single-activity sample shows you how to make a call to the
 Cloud Vision API with an image picked from your device’s gallery.
 
 - [Documentation and Android Code](https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/android)
